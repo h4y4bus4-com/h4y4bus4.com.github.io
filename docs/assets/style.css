@@ -1,5 +1,4 @@
 body {
-    font-family: "Sawarabi Gothic", serif;
     background-color: #27272a;
     color: #ededff;
     display: grid;
@@ -8,7 +7,12 @@ body {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: square;
+    margin-top: .25rem;
+    /* margin-bottom: .25rem; */
+}
+li {
+    margin-bottom: .125rem;
 }
 
 .container {
@@ -81,7 +85,15 @@ a:hover {
 .container h1,
 .container h2,
 .container h3 {
-    font-weight: unset;
+    font-weight: 400;
     text-align: left;
     margin: 0 0 10px;
+}
+
+.container p, li {
+    /* font-family: "Sawarabi Gothic", serif; */
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
 }
