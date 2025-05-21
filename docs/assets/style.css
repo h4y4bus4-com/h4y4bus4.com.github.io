@@ -29,7 +29,6 @@ li {
     margin-bottom: 1.5rem;;
     text-align: left;
     font-size: medium;
-
 }
 
 .contacts p {
@@ -70,27 +69,32 @@ a:hover {
     text-align: center;
 }
 
-.container h2 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-left: 3px solid #8e8e99;
-}
-
-.container h3 {
-    padding-right: 1rem;
-    padding-bottom: 0.25rem;
-    border-bottom: 1px dashed #bebecc;
-}
-
 .container h1,
 .container h2,
 .container h3 {
-    font-weight: 400;
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
     text-align: left;
     margin: 0 0 10px;
 }
 
-.container p, li {
+.container h2, h3 {
+    padding-right: 1rem;
+}
+
+.container h2 {
+    font-weight: 400;
+    padding-left: 1rem;
+    border-left: 3px solid #8e8e99;
+}
+
+.container h3 {
+    padding-bottom: 0.25rem;
+    border-bottom: 1px dashed #bebecc;
+    font-weight: 300;
+}
+
+.container p, li, footer {
     /* font-family: "Sawarabi Gothic", serif; */
     font-family: "M PLUS 1", sans-serif;
     font-optical-sizing: auto;
