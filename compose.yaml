@@ -1,6 +1,7 @@
 services:
   nginx:
     image: nginx:alpine
+    container_name: h4y4bus4-com-nginx
     ports:
       - "8888:80"
     volumes:
