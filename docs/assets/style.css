@@ -101,3 +101,7 @@ a:hover {
     font-style: normal;
     font-weight: 300;
 }
+
+.p-footer {
+    text-align: center;
+}
