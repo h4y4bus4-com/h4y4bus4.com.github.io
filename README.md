@@ -5,4 +5,7 @@ for www.h4y4bus4.com
 ```
 ## Listening on 8888
 $ docker compose up -d
+
+## npx が入ってるならこっちでもいい
+$ npx serve ./docs
 ```
