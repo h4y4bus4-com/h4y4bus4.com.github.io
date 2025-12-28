@@ -105,3 +105,9 @@ a:hover {
 .p-footer {
     text-align: center;
 }
+
+.div-footer-box {
+    text-align: left;
+    border: 1px dashed #bebecc;
+    padding: 1rem;
+}
