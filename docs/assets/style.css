@@ -22,7 +22,7 @@ li {
 }
 
 .contacts {
-    width: 300px;
+    /* width: 300px; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5rem;
@@ -55,13 +55,12 @@ a:hover {
 
 .nametag {
     font-size: x-large;
-    text-align: center;
+    margin: 0;
+    /* text-align: center; */
 }
 
-.nametag p,
-.description,
-.icon {
-    text-align: center;
+.description {
+    margin: 0;
 }
 
 .accounts {
@@ -69,6 +68,15 @@ a:hover {
     text-align: center;
 }
 
+h1 > a {
+    font-weight: normal;
+    color:#ededff;
+}
+
+h1 > a:hover {
+    text-decoration: none;
+
+}
 .container h1,
 .container h2,
 .container h3 {
@@ -103,11 +111,48 @@ a:hover {
 }
 
 .p-footer {
-    text-align: center;
+    /* text-align: center; */
+    /* margin-top: 3rem; */
 }
 
 .div-footer-box {
-    text-align: left;
-    border: 1px dashed #bebecc;
-    padding: 1rem;
+    /* text-align: left; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: 1px dashed #bebecc;
+    /* padding: 1rem; */
+}
+
+.nav-menu {
+    /* text-align: center; */
+    font-family: "M PLUS 1", sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+.nav-menu a:not(:last-child)::after {
+    content: "|";
+    margin: 0 8px;
+    color: #bebecc;
+}
+
+.nav-breadcrumb {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    margin: 1rem;
+    border-radius: 100%;
+}
+
+.counter {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.banner {
+    border: 1px solid #bebecc;
+
 }
