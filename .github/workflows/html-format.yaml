@@ -1,0 +1,28 @@
+name: Format HTML
+
+on:
+  push:
+    paths:
+      - '**/*.html'
+  pull_request:
+    paths:
+      - '**/*.html'
+
+jobs:
+  format-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Check HTML format
+        run: prettier --check "**/*.html"

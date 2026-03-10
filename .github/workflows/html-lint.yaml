@@ -1,0 +1,28 @@
+name: Lint HTML
+
+on:
+  push:
+    paths:
+      - '**/*.html'
+  pull_request:
+    paths:
+      - '**/*.html'
+
+jobs:
+  html-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install htmlhint
+        run: npm install -g htmlhint
+
+      - name: Lint html
+        run: htmlhint "**/*.html"
