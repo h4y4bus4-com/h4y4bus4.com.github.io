@@ -1,158 +1,145 @@
 body {
-    background-color: #27272a;
-    color: #ededff;
-    display: grid;
-    place-items: center;
-    margin: 0;
-}
-
-ul {
-    list-style-type: square;
-    margin-top: .25rem;
-    /* margin-bottom: .25rem; */
-}
-li {
-    margin-bottom: .125rem;
-}
-
-.container {
-    width: 80%;
-    max-width: 600px;
-    padding: 20px;
-}
-
-.contacts {
-    /* width: 300px; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;;
-    text-align: left;
-    font-size: medium;
-}
-
-.contacts p {
-    padding-bottom: 0.25rem;
-}
-
-.accounts {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.accounts a {
-    color: unset;
+  background-color: #27272a;
+  color: #ededff;
+  display: grid;
+  place-items: center;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #007bff;
+  color: #007bff;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.nametag {
-    font-size: x-large;
-    margin: 0;
-    /* text-align: center; */
+ul {
+  list-style-type: square;
+  margin-top: 0.25rem;
 }
 
-.description {
-    margin: 0;
+li {
+  margin-bottom: 0.125rem;
 }
 
-.accounts {
-    font-size: large;
-    text-align: center;
+.container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
 }
 
-h1 > a {
-    font-weight: normal;
-    color:#ededff;
+.container h1,
+.container h2,
+.container h3,
+.container p,
+.container li,
+.container footer,
+.nav-menu {
+  font-family: "M PLUS 1", sans-serif;
+  font-optical-sizing: auto;
 }
 
-h1 > a:hover {
-    text-decoration: none;
-
-}
 .container h1,
 .container h2,
 .container h3 {
-    font-family: "M PLUS 1", sans-serif;
-    font-optical-sizing: auto;
-    text-align: left;
-    margin: 0 0 10px;
+  text-align: left;
+  margin: 0 0 10px;
 }
 
-.container h2, h3 {
-    padding-right: 1rem;
+.container h2,
+.container h3 {
+  padding-right: 1rem;
 }
 
 .container h2 {
-    font-weight: 400;
-    padding-left: 1rem;
-    border-left: 3px solid #8e8e99;
+  font-weight: 400;
+  padding-left: 1rem;
+  border-left: 3px solid #8e8e99;
 }
 
 .container h3 {
-    padding-bottom: 0.25rem;
-    border-bottom: 1px dashed #bebecc;
-    font-weight: 300;
+  font-weight: 300;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #bebecc;
 }
 
-.container p, li, footer {
-    /* font-family: "Sawarabi Gothic", serif; */
-    font-family: "M PLUS 1", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 300;
+.container p,
+.container li,
+.container footer {
+  font-style: normal;
+  font-weight: 300;
 }
 
-.p-footer {
-    /* text-align: center; */
-    /* margin-top: 3rem; */
+h1 > a {
+  font-weight: normal;
+  color: #ededff;
+}
+
+h1 > a:hover {
+  text-decoration: none;
+}
+
+.nametag {
+  font-size: x-large;
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+}
+
+.contacts {
+  margin: 1.5rem auto;
+  text-align: left;
+  font-size: medium;
+}
+
+.contacts p {
+  padding-bottom: 0.25rem;
+}
+
+.accounts {
+  margin: 1.5rem 0;
+  font-size: large;
+  text-align: center;
+}
+
+.accounts i {
+  color: #ededff;
 }
 
 .div-footer-box {
-    /* text-align: left; */
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-top: 1px dashed #bebecc;
-    /* padding: 1rem; */
+  padding: 0.5rem 0;
+  border-top: 1px dashed #bebecc;
 }
 
 .nav-menu {
-    /* text-align: center; */
-    font-family: "M PLUS 1", sans-serif;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: large;
+  margin-bottom: 1rem;
+  font-size: large;
 }
 
 .nav-menu a:not(:last-child)::after {
-    content: "|";
-    margin: 0 8px;
-    color: #bebecc;
+  content: "|";
+  margin: 0 5px;
+  color: #bebecc;
 }
 
 .nav-breadcrumb {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .icon {
-    margin: 1rem;
-    border-radius: 100%;
+  margin: 1rem;
+  border-radius: 100%;
 }
 
 .counter {
-    margin-top: 1rem;
-    text-align: center;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .banner {
-    border: 1px solid #bebecc;
-
+  border: 1px solid #bebecc;
 }
