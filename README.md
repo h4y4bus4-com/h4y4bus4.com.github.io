@@ -1,5 +1,5 @@
-# h4y4bus4.com.github.io
-for www.h4y4bus4.com
+# www.2haya.net
+for www.2haya.net
 
 ## 備忘: 手元での動作確認
 ```
